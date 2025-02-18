@@ -1,19 +1,16 @@
 <script setup lang="ts">
-import ProchainLaunch from '@/components/ProchainLaunch.vue';
-import Selectpart from '@/components/Selectpart.vue';
+// @ts-ignore
+import ProchainLaunch from '@/components/Prochainlaunch.vue';
+// @ts-ignore
+import Partieselect from '@/components/Partieselect.vue';
+// @ts-ignore
 import Dernierslancements from '@/components/Dernierslancements.vue';
 </script>
 
 <template>
   <div >
-
-    <!-- Affichage de la section ProchainLaunch -->
     <ProchainLaunch />
-
-    <!-- Affichage de la section Selectpart -->
-    <Selectpart />
-
-    <!-- Affichage de la section Dernierslancements -->
+    <Partieselect />
     <Dernierslancements />
   </div>
 </template>
